@@ -16,7 +16,7 @@
         <h2>Search demo for English words</h2>
         <!-- https://giphy.com/gifs/looking-looney-tunes-searching-26n6WywJyh39n1pBu -->
         <!-- Displaying the image of Wile E. Coyote searching. -->
-        <img alt="Wile E. Coyote is searching" class="img-fluid w-25" src='../static/search.gif'>
+        <img alt="Wile E. Coyote is searching" class="img-fluid w-25" src="../static/search.gif">
 
         <!-- This is the form that the user will use to search for a query. -->
         <form action="" class="mt-4" method="get">
