@@ -30,7 +30,7 @@ if (isset($_GET['word']))
             echo "<h4>Definition:</h4>";
             echo "<p>";
             echo "<a href='https://www.bing.com/search?q=$word+definition' target='_blank'>";
-            echo "Click here to see the definition of $word";
+            echo "👉Click here to see the definition of $word";
             echo "</a>";
             echo "</p>";
             echo "</div>";
@@ -39,7 +39,7 @@ if (isset($_GET['word']))
             echo "<h4>Example:</h4>";
             echo "<p>";
             echo "<a href='https://www.bing.com/search?q=$word+example' target='_blank'>";
-            echo "Click here to see an example of $word";
+            echo "👉Click here to see an example of $word";
             echo "</a>";
             echo "</p>";
             echo "</div>";
