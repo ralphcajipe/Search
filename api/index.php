@@ -14,9 +14,8 @@
     <div class="text-center">
         <!-- Print a line of message that says "Search demo for English words". -->
         <h2>Search demo for English words</h2>
-        <!-- https://giphy.com/gifs/looking-looney-tunes-searching-26n6WywJyh39n1pBu -->
-        <!-- Displaying the image of Wile E. Coyote searching. -->
-        <img alt="Bears searching" class="img-fluid w-25" src="./binocs.jpg">
+        <!-- Displaying the image of Bears searching. -->
+        <img alt="Bears searching" class="img-fluid w-25" src="/var/task/user/api/binocs.jpg">
 
         <!-- This is the form that the user will use to search for a query. -->
         <form action="" class="mt-4" method="get">
