@@ -14,7 +14,7 @@
         <!-- Print a line of message that says "Search demo for English words". -->
         <h2>Search demo for English words</h2>
         <!-- Displaying the image of Bears searching. -->
-        <img alt="Bears searching" class="img-fluid w-25" src="https://m.media-amazon.com/images/M/MV5BNjhmMzVkOTktOThkMC00OTcyLTg4OWMtMTU1ZjZlN2RiZDM1L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNDk2NDYyMTk@._V1_FMjpg_UX1000_.jpg">
+        <img alt="Bears searching" class="img-fluid w-25" src="https://64.media.tumblr.com/9ffec1adab1c3844181eb087a51c8201/tumblr_o631994HlL1vnqmpbo1_500.gifv">
 
         <!-- This is the form that the user will use to search for a query. -->
         <form action="" class="mt-4" method="get">
