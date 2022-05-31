@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <!--
     This is the head of the HTML document. It is linking to the Bootstrap CSS file and setting the 
