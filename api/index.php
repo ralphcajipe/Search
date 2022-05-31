@@ -32,7 +32,7 @@
         // `RHCajipe_search.inc` contains the code that checks whether the word is in the file `words.txt`.
         
         // This line makes the code in this file reusable, clean, and easy to read.
-        include("RHCajipe_search.php");
+        include("./RHCajipe_search.php");
     
         ?>
 </body>
