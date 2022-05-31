@@ -21,29 +21,35 @@ if (isset($_GET['word']))
         // Checking if the word is in the line.
         if (strpos($line, $word) !== false) 
         {
-            // Center the result
-            echo "<div class='text-center'>";
-            echo "<h3>✅Found $word in words.txt</h3>";
-            echo "</div>";
-            // Provide definition of the word via bing search.
-            echo "<div class='text-center'>";
-            echo "<h4>Definition:</h4>";
-            echo "<p>";
-            echo "<a href='https://www.bing.com/search?q=$word+definition' target='_blank'>";
-            echo "Click here to see the definition of $word";
-            echo "</a>";
-            echo "</p>";
-            echo "</div>";
-            // Provide an example of the word via google search.
-            echo "<div class='text-center'>";
-            echo "<h4>Example:</h4>";
-            echo "<p>";
-            echo "<a href='https://www.bing.com/search?q=$word+example' target='_blank'>";
-            echo "Click here to see an example of $word";
-            echo "</a>";
-            echo "</p>";
-            echo "</div>";
-            break;
+            // Check if it is two or more words
+            // If they are separated by a space and exist in the file, it will display that it is found.
+            if (strpos($line, ' ') !== false) 
+            {
+                // Center the result
+                echo "<div class='text-center'>";
+                echo "<h3>✅Found $word in words.txt</h3>";
+                echo "</div>";
+                // Provide definition of the word via bing search.
+                echo "<div class='text-center'>";
+                echo "<h4>Definition:</h4>";
+                echo "<p>";
+                echo "<a href='https://www.bing.com/search?q=$word+definition' target='_blank'>";
+                echo "Click here to see the definition of $word";
+                echo "</a>";
+                echo "</p>";
+                echo "</div>";
+                // Provide an example of the word via google search.
+                echo "<div class='text-center'>";
+                echo "<h4>Example:</h4>";
+                echo "<p>";
+                echo "<a href='https://www.bing.com/search?q=$word+example' target='_blank'>";
+                echo "Click here to see an example of $word";
+                echo "</a>";
+                echo "</p>";
+                echo "</div>";
+                break;
+            }
+            
         }
         // Checking if the file has reached the end of the file because 
         // the word is not in the fie.
