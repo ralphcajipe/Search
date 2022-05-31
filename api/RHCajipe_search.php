@@ -11,7 +11,7 @@ if (isset($_GET['word']))
     // A text file containing over 466k English words.
     // Text file source: https://github.com/dwyl/english-words
     $word = $_GET['word'];
-    $file = fopen("../api/words.txt", "r");
+    $file = fopen('/var/task/user/api/words.txt', "r");
 
     // Checking if the file has reached the end of the file.
     while (!feof($file)) 
