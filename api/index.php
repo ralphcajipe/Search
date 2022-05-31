@@ -12,7 +12,7 @@
 <body>
     <div class="text-center">
         <!-- Print a line of message that says "Search demo for English words". -->
-        <h2>Search demo for English words</h2>
+        <h2>Search English words</h2>
         <!-- Displaying the image of Bears searching. -->
         <img alt="Bears searching" class="img-fluid w-25" src="https://64.media.tumblr.com/9ffec1adab1c3844181eb087a51c8201/tumblr_o631994HlL1vnqmpbo1_500.gifv">
 

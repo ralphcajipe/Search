@@ -23,7 +23,7 @@ if (isset($_GET['word']))
         {
             // Center the result
             echo "<div class='text-center'>";
-            echo "<h3>✅Found $word in words.txt</h3>";
+            echo "<h3>😊Found \"$word\" in my book!</h3>";
             echo "</div>";
             // Provide definition of the word via bing search.
             echo "<div class='text-center'>";
@@ -44,6 +44,7 @@ if (isset($_GET['word']))
             echo "</p>";
             echo "</div>";
             break;
+            
         }
         // Checking if the file has reached the end of the file because 
         // the word is not in the fie.
@@ -51,7 +52,7 @@ if (isset($_GET['word']))
         {
             // Center the result
             echo "<div class='text-center'>";
-            echo "<h3>❌\"$word\" cannot be found</h3>";
+            echo "<h3>🙁\"$word\" is not in my book!</h3>";
             echo "</div>";
             break;
         }
